@@ -22,6 +22,8 @@ const App = () => {
           {/* Routes outside of Layoutt */}
           <Route path="/login" element={<Login />} />
           <Route path="/offer" element={<Offernav />} />
+          <Route path="/register" element={<Register />} />
+
 
 
           {/* Routes within Layoutt */}
@@ -29,7 +31,6 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/register" element={<Register />} />
             <Route path="*" element={<Nopage />} />
             <Route path="/mern" element={<Mearn />} />
             <Route path="/mean" element={<Mean />} />

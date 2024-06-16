@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import Home from './Home';
+import Navv from '../../Nav/Navv';
 
 const Register = () => {
   const initialState = {
@@ -49,6 +52,8 @@ const Register = () => {
   };
 
   return (
+    <>
+    <Navv/>
     <div className="container my-5">
       <div className="row justify-content-center">
         <div className="col-md-6 d-flex justify-content-center align-items-center mb-4">
@@ -126,10 +131,13 @@ const Register = () => {
             <div>
               <button type="submit" className="btn btn-dark">Submit</button>
             </div>
+            <Link to='/' element={<Home/>} style={{color:'white',marginLeft:'120px',textDecoration:'none',fontSize:'20px'}}>Go To Home Page</Link>
+
           </form>
         </div>
       </div>
     </div>
+    </>
   );
 };
 

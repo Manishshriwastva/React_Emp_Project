@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Offernav from '../offer/Offernav';
+import logo from '../images/logo.png'
+
 
 const Navv = () => {
   const handleNavLinkClick = () => {
@@ -17,33 +19,31 @@ const Navv = () => {
 
   return (
     <>
-<nav className="navbar bg-body-tertiary">
-  <div className='w-100'>
-    <Link to='/offer' element={<Offernav/>} className="navbar-brand" href="#"> <marquee behavior="" direction="left">Top courses from ₹549 when you first visit MyjavaOpt in to get the deal today <span style={{color:'blue'}}>Click here</span></marquee></Link>
-  </div>
+<nav className="navbar bg-body-tertiary fixed-top" style={{padding:'0',margin:'0'}}>
+<Link to='/offer' element={<Offernav/>} className="navbar-brand" href="#" style={{width:'100%',margin:'0',padding:'0'}}> <marquee  behavior="" direction="left" >Top courses from ₹549 when you first visit MyjavaOpt in to get the deal today <span style={{color:'blue'}}>Click here</span></marquee></Link>
 </nav>
 
+{/* ----------------------Upper side Nav------------------------------------------ */}
 
-
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dar " style={{backgroundColor:'#5eafbd'}}>
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dar" style={{backgroundColor:'#5eafbd', width:'100%',position:'relative'}}>
         <div className="container">
-          <Link className="navbar-brand" to="/" onClick={handleNavLinkClick}>Logo</Link>
+          <Link className="navbar-brand" to="/" onClick={handleNavLinkClick}><img src={logo} style={{height:'50px',width:'50px',margin:'0',padding:'0'}} alt="" /></Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" to="/" onClick={handleNavLinkClick}>Home</Link>
+                <Link className="nav-link active fs-5" to="/" onClick={handleNavLinkClick}>Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/contact" onClick={handleNavLinkClick}>Contact</Link>
+                <Link className="nav-link active fs-5" to="/contact" onClick={handleNavLinkClick}>Contact</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/about" onClick={handleNavLinkClick}>About</Link>
+                <Link className="nav-link active fs-5" to="/about" onClick={handleNavLinkClick}>About</Link>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a className="nav-link dropdown-toggle active fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Courses
                 </a>
                 <ul className="dropdown-menu " aria-labelledby="navbarDropdown">

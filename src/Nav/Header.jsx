@@ -34,9 +34,9 @@ const Header = () => {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="2000">
             <img
-              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_960,q_50/lsci/db/PICTURES/CMS/382800/382838.jpg
-"
-              className="d-block w-100 " style={{height:'600px'}}
+              src="https://www.excelptp.com/wp-content/uploads/2023/05/full-stack-banner-img.jpg"
+
+              className="d-block w-100 " style={{height:'560px'}}
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
@@ -48,9 +48,9 @@ const Header = () => {
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <img
-              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_960,q_50/lsci/db/PICTURES/CMS/382800/382840.jpg
+              src="https://digital-dividend.se/wp-content/uploads/2023/06/MEAN-Stack.png
 "
-              className="d-block w-100" style={{height:'600px'}}
+              className="d-block w-100" style={{height:'560px'}}
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
@@ -62,9 +62,9 @@ const Header = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_960,q_50/lsci/db/PICTURES/CMS/382800/382813.jpg
+              src="https://ameerpetitstorage.blob.core.windows.net/amitroot/Demos_Hero%5CIndia.png
 "
-              className="d-block w-100" style={{height:'600px'}}
+              className="d-block w-100" style={{height:'560px'}}
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
@@ -83,9 +83,10 @@ const Header = () => {
         >
           <span
             className="carousel-control-prev-icon"
+            
             aria-hidden="true"
           ></span>
-          <span className="visually-hidden">Previous</span>
+          <span className="visually-hidden" >Previous</span>
         </button>
         <button
           className="carousel-control-next"
