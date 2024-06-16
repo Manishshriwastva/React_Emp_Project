@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "id": "0768",
+      "name": "",
+      "email": "ManishShriwastva@gmail.com",
+      "mobile_number": "9123153528",
+      "states": "BR",
+      "password": "1212",
+      "repassword": "1212"
+    },
+    {
+      "id": "8b0d",
+      "name": "",
+      "email": "ManishShriwastva@gmail.com",
+      "mobile_number": "9123153528",
+      "states": "BR",
+      "password": "1212",
+      "repassword": "1212"
+    },
+    {
+      "id": "4dec",
+      "name": "Ripam",
+      "email": "ripam@gmail.com",
+      "mobile_number": "9123153528",
+      "states": "CT",
+      "password": "1212",
+      "repassword": "1212"
+    },
+    {
+      "id": "12aa",
+      "name": "Hiamnshu",
+      "email": "Himanshu@gmail.com",
+      "mobile_number": "9453295230",
+      "states": "RJ",
+      "password": "1111",
+      "repassword": "1111"
+    },
+    {
+      "id": "e0bc",
+      "name": "Manish",
+      "email": "ripam@gmail.com",
+      "mobile_number": "9123153528",
+      "states": "BR",
+      "password": "11111",
+      "repassword": "11111"
+    },
+    {
+      "id": "7b8d",
+      "name": "Ripam",
+      "email": "ripam@gmail.com",
+      "mobile_number": "7480018007",
+      "states": "GA",
+      "password": "2222",
+      "repassword": "2222"
+    },
+    {
+      "id": "9c7c",
+      "name": "Ripam",
+      "email": "foodwastemanagementsystem@gmail.com",
+      "mobile_number": "9123153528",
+      "states": "JH",
+      "password": "3333",
+      "repassword": "3333"
+    },
+    {
+      "id": "16d8",
+      "name": "Manish",
+      "email": "ManishShriwastva@gmail.com",
+      "mobile_number": "9123153528",
+      "states": "BR",
+      "password": "5555",
+      "repassword": "5555"
+    },
+    {
+      "id": "1731",
+      "name": "Rahul",
+      "email": "Rahul@gmail.com",
+      "mobile_number": "9123153528",
+      "states": "BR",
+      "password": "4444",
+      "repassword": "4444"
+    },
+    {
+      "id": "8360",
+      "name": "Adarsh ",
+      "email": "adarsh@gmail.com",
+      "mobile_number": "9123153528",
+      "states": "KA",
+      "password": "mmmm",
+      "repassword": "mmmm"
+    },
+    {
+      "id": "51b9",
+      "name": "Himanshu",
+      "email": "foodwastemanagementsystem@gmail.com",
+      "mobile_number": "9123153528",
+      "states": "BR",
+      "password": "55555",
+      "repassword": "55555"
+    },
+    {
+      "id": "f85e",
+      "name": "chitranjan Patel",
+      "email": "Chitranjan@gmail.com",
+      "mobile_number": "6205708804",
+      "states": "BR",
+      "password": "55555",
+      "repassword": "55555",
+      "": "JK"
+    }
+  ]
+}

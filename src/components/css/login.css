@@ -1,0 +1,36 @@
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(203, 152, 206);
+}
+
+.login-card {
+  background-color: rgb(154, 18, 18);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(121, 86, 86, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card .form-label {
+  color: rgb(151, 141, 141);
+}
+
+.login-card h1 {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    padding: 1.5rem;
+  }
+}
+.gotohome{
+  color: white;
+  margin-left: 100px;
+}
