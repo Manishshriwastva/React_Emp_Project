@@ -21,17 +21,16 @@ const App = () => {
     <>
       <BrowserRouter>
         <Routes>
-{/*------------- Routes outside of Layoutt ------------------*/}
+          {/*------------- Routes outside of Layoutt ------------------*/}
 
           <Route path="/login" element={<Login />} />
           <Route path="/offer" element={<Offer />} />
           <Route path="/register" element={<Register />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<Nopage />} />
-{/* -----------------------End OutSide--------------------------- */}
+          {/* -----------------------End OutSide--------------------------- */}
 
-
-{/* ----------------start with layout-------------------------- */}
+          {/* ----------------start with layout-------------------------- */}
 
           {/* Routes within Layoutt */}
           <Route element={<Layoutt />}>
@@ -43,7 +42,6 @@ const App = () => {
             <Route path="/java" element={<Java />} />
             <Route path="/python" element={<Python />} />
             <Route path="/sap" element={<Sap />} />
-
           </Route>
           {/* ---------------------End with Layout----------------- */}
         </Routes>

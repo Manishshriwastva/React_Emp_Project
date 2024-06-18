@@ -5,8 +5,8 @@ const Offernav = () => {
   return (
     <>
       <nav
-        className="navbar bg-body-tertiary fixed-top shadow-lg"
-        style={{ padding: "0", margin: "0" }}
+        className="navbar bg-body-tertiar-y fixed-top shadow-lg"
+        style={{ padding: "0", margin: "0" ,backgroundColor:'pink' }}
       >
         
         <Link
