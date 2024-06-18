@@ -1,4 +1,26 @@
-*{
+* {
   margin: 0;
   padding: 0;
+}
+
+/* Default styles for small to medium screens */
+body {
+  font-size: 16px;
+  padding: 0px;
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+    padding: 0px;
+  }
+}
+
+/* Media query for extra-large screens */
+@media only screen and (min-width: 1600px) {
+  body {
+    font-size: 20px;
+    padding: 60px;
+  }
 }

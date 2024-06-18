@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Home from './Home';
 import Navv from '../../Nav/Navv';
+import Pop from '../../Pop_up/Pop';
+import Footer from '../../Nav/Footer';
+import regbannner2 from '../../images/regbannner2.png'
+import Login from './Login';
+
 
 const Register = () => {
   const initialState = {
@@ -48,37 +53,38 @@ const Register = () => {
       body: JSON.stringify(regdata)
     });
     alert('User registered successfully');
-    setRegData(initialState); // Reset the form fields, including the dropdown
+    setRegData(initialState); 
   };
 
   return (
     <>
     <Navv/>
-    <div className="container my-5">
+    <div className="container m-4">
       <div className="row justify-content-center">
-        <div className="col-md-6 d-flex justify-content-center align-items-center mb-4">
+      <div className="col-md-5 d-flex justify-content-center align-items-center mb-4">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTInZPgpr_dYCjBqN4Y_Oj-eIzgwHHZw2yxSw&s"
+            src={regbannner2}
             alt=""
             style={{ width: '100%', height: 'auto' }}
           />
         </div>
-        <div className="col-md-4 bg-dange p-4 text-white border rounded" style={{backgroundColor:'#5eafbd'}}>
-          <h1 className="text-center mb-4">Register Here</h1>
+        
+        <div className="col-md-4 bg-dange p-2 text-white border rounded" style={{backgroundColor:'#ffff'}}>
+          <h1 className="text-center mb-4 text-dark">Register Here</h1>
           <form onSubmit={RegFormSubmit}>
-            <div className="mb-3">
+            <div className="mb-2">
               <label htmlFor="name" className="form-label">Name</label>
               <input type="text" className="form-control" value={regdata.name} name="name" placeholder="Enter Your Name" onChange={handleRegForm} required />
             </div>
-            <div className="mb-3">
+            <div className="mb-2">
               <label htmlFor="email" className="form-label">Email</label>
               <input type="email" className="form-control" value={regdata.email} name="email" placeholder="Enter your email id" onChange={handleRegForm} required />
             </div>
-            <div className="mb-3">
+            <div className="mb-2">
               <label htmlFor="mobile_number" className="form-label">Mobile Number</label>
               <input type="tel" className="form-control" value={regdata.mobile_number} name="mobile_number" placeholder="Enter your Mobile No." onChange={handleRegForm} required />
             </div>
-            <div className="mb-3">
+            <div className="mb-2">
               <label htmlFor="stateSelect" className="form-label">Select a State</label>
               <select id="stateSelect" className="form-select" value={regdata.states} name="states" onChange={handleRegForm} required>
                 <option value="">Select Your State</option>
@@ -120,23 +126,29 @@ const Register = () => {
                 <option value="PY">Puducherry</option>
               </select>
             </div>
-            <div className="mb-3">
+            <div className="mb-2">
               <label htmlFor="password" className="form-label">Password</label>
               <input type="password" className="form-control" value={regdata.password} name="password" placeholder="Enter your Password" onChange={handleRegForm} required />
             </div>
-            <div className="mb-3">
+            <div className="mb-2">
               <label htmlFor="repassword" className="form-label">Re-password</label>
               <input type="password" className="form-control" value={regdata.repassword} name="repassword" placeholder="Enter your Re-password" onChange={handleRegForm} required />
             </div>
             <div>
               <button type="submit" className="btn btn-dark">Submit</button>
             </div>
-            <Link to='/' element={<Home/>} style={{color:'white',marginLeft:'120px',textDecoration:'none',fontSize:'20px'}}>Go To Home Page</Link>
+            
+            <Link to='/' element={<Home/>} style={{color:'blue',marginLeft:'110px',fontSize:'18px', textDecoration:'none'}}>Go To Home Page</Link>
+            <Link to='/login' element={<Login/>} style={{color:'blue',marginLeft:'10px',fontSize:'18px', textDecoration:'none'}}>| Login</Link>
 
           </form>
+          
         </div>
+        
       </div>
     </div>
+    <Footer/>
+    <Pop/>
     </>
   );
 };

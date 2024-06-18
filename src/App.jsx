@@ -13,25 +13,31 @@ import Java from "./course/Java";
 import Python from "./course/Python";
 import Sap from "./course/Sap";
 import Offernav from "./offer/Offernav";
+import Admin from "./auth/admin/Admin";
+import Offer from "./offer/Offer";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          {/* Routes outside of Layoutt */}
+{/*------------- Routes outside of Layoutt ------------------*/}
+
           <Route path="/login" element={<Login />} />
-          <Route path="/offer" element={<Offernav />} />
+          <Route path="/offer" element={<Offer />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="*" element={<Nopage />} />
+{/* -----------------------End OutSide--------------------------- */}
 
 
+{/* ----------------start with layout-------------------------- */}
 
           {/* Routes within Layoutt */}
           <Route element={<Layoutt />}>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<Nopage />} />
             <Route path="/mern" element={<Mearn />} />
             <Route path="/mean" element={<Mean />} />
             <Route path="/java" element={<Java />} />
@@ -39,6 +45,7 @@ const App = () => {
             <Route path="/sap" element={<Sap />} />
 
           </Route>
+          {/* ---------------------End with Layout----------------- */}
         </Routes>
       </BrowserRouter>
     </>

@@ -108,6 +108,24 @@
       "password": "55555",
       "repassword": "55555",
       "": "JK"
+    },
+    {
+      "id": "9a28",
+      "name": "Anish anand",
+      "email": "Anish@gmail.com",
+      "mobile_number": "7480018007",
+      "states": "BR",
+      "password": "1010",
+      "repassword": "1010"
+    },
+    {
+      "id": "85dc",
+      "name": "Ramesh",
+      "email": "Ramesh@gamil.com",
+      "mobile_number": "9453295230",
+      "states": "BR",
+      "password": "12345",
+      "repassword": "12345"
     }
   ]
 }

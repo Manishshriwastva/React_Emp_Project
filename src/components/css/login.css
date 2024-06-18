@@ -1,20 +1,22 @@
 
 
 .login-container {
+  
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: rgb(203, 152, 206);
+  background-color: #ffffff;
 }
 
 .login-card {
-  background-color: rgb(154, 18, 18);
+  background-color: #ffffff;
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 0 0 10px rgba(121, 86, 86, 0.1);
   width: 100%;
   max-width: 400px;
+  color: black;
 }
 
 .login-card .form-label {
@@ -31,6 +33,13 @@
   }
 }
 .gotohome{
-  color: white;
+  color: black;
   margin-left: 100px;
+}
+
+.login-container img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px; /* Adjust this value as needed */
 }
