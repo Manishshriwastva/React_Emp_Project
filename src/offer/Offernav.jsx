@@ -18,7 +18,7 @@ const Offernav = () => {
         >
           {" "}
           <marquee behavior="" direction="left">
-            Top courses from ₹549 when you first visit MyjavaOpt in to get the
+            Top courses from ₹549 when you first visit on www.carrerskills.com to get the
             deal today <span style={{ color: "blue" }}>Click here</span>
           </marquee>
         </Link>

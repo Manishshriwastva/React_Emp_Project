@@ -15,6 +15,10 @@ import Sap from "./course/Sap";
 import Offernav from "./offer/Offernav";
 import Admin from "./auth/admin/Admin";
 import Offer from "./offer/Offer";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+import Dashboard from "./components/dashboard/Dashboard";
+
 
 const App = () => {
   return (
@@ -27,6 +31,10 @@ const App = () => {
           <Route path="/offer" element={<Offer />} />
           <Route path="/register" element={<Register />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+
+
+          
           <Route path="*" element={<Nopage />} />
           {/* -----------------------End OutSide--------------------------- */}
 
@@ -36,6 +44,7 @@ const App = () => {
           <Route element={<Layoutt />}>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+
             <Route path="/contact" element={<Contact />} />
             <Route path="/mern" element={<Mearn />} />
             <Route path="/mean" element={<Mean />} />
@@ -46,6 +55,7 @@ const App = () => {
           {/* ---------------------End with Layout----------------- */}
         </Routes>
       </BrowserRouter>
+      <ToastContainer/>
     </>
   );
 };

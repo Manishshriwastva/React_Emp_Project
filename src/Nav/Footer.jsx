@@ -36,8 +36,8 @@ const Footer = () => {
         <div className="container text-center text-md-start mt-5">
           <div className="row mt-3">
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
-                <i className="fas fa-gem me-3"></i>Company name
+              <h6 className="text-uppercase fw-bold mb-4 bulbtext">
+                <i className="fas fa-lightbulb-o me-2 fs-3 bulb"></i>Carrer Skills
               </h6>
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -100,7 +100,7 @@ const Footer = () => {
 
       <div className="text-center p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2021 Copyright--
-        <a className="text-reset fw-bold" href="">Jcurve.com</a>
+        <a className="text-reset fw-bold" href="">www.carrerskills.com</a>
       </div>
     </footer>
       

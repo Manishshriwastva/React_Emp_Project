@@ -62,7 +62,7 @@ const ChatBox = () => {
                 Close
               </Button>
             </div>
-            <p>Click the button below to call us.</p>
+            <p style={{color:'red',fontFamily:'initial'}}>Enquiry here 9123153528.</p>
             <Button variant="primary" onClick={handleCallNow}>
               <i className="fas fa-phone"></i> Call Now
             </Button>

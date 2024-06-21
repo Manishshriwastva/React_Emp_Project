@@ -24,3 +24,22 @@ body {
     padding: 60px;
   }
 }
+
+/* Define the hover effect for the body */
+/* Define the hover effect for paragraphs and headings */
+/* p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
+  color: #00ffe1; 
+  transition: color 0.3s ease; 
+} */
+
+/* Define the hover effect for the lightbulb icon */
+.bulb:hover {
+  color: gold; /* Change icon color to red on hover */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+.bulbtext:hover{
+  color: red;
+  transition: color 0.3s ease;
+}
+
+
